@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E8E30E52-E767-764F-9C79-DA7926DE4782}</ProjectGuid>
+    <ProjectGuid>{51FBE28E-20AF-7091-0706-2816CDB55545}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Zappar.UAR.Editor</AssemblyName>
@@ -56,25 +56,59 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="universal-ar-unity-main\Editor\ImageTrain\ZImageTrainer.cs" />
-    <Compile Include="universal-ar-unity-main\Editor\CameraSourcesListPopupDrawer.cs" />
-    <Compile Include="universal-ar-unity-main\Editor\ZapparImageTrackingTargetEditor.cs" />
-    <Compile Include="universal-ar-unity-main\Editor\ZapparGyroCameraEditor.cs" />
-    <Compile Include="universal-ar-unity-main\Editor\ZapparUtilities.cs" />
-    <Compile Include="universal-ar-unity-main\Editor\ZapparFaceMeshTargetEditor.cs" />
-    <Compile Include="universal-ar-unity-main\Editor\PackageImportSettings.cs" />
-    <Compile Include="universal-ar-unity-main\Editor\ZapparMultiFaceTrackingTargetEditor.cs" />
-    <Compile Include="universal-ar-unity-main\Editor\BuildPostProcess.cs" />
-    <Compile Include="universal-ar-unity-main\Editor\ZapparInstantTrackingTargetEditor.cs" />
-    <Compile Include="universal-ar-unity-main\Editor\ZapparMenu.cs" />
-    <Compile Include="universal-ar-unity-main\Editor\ZapparFaceTrackingTargetEditor.cs" />
-    <Compile Include="universal-ar-unity-main\Editor\ZapparFaceLandmarkEditor.cs" />
-    <Compile Include="universal-ar-unity-main\Editor\TargetFileListPopupDrawer.cs" />
-    <Compile Include="universal-ar-unity-main\Editor\ZAssistant.cs" />
-    <Compile Include="universal-ar-unity-main\Editor\ZapparUARSettingsProvider.cs" />
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Editor\ZapparUARSettingsProvider.cs">
+      <Link>Editor\ZapparUARSettingsProvider.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Editor\ImageTrain\ZImageTrainer.cs">
+      <Link>Editor\ImageTrain\ZImageTrainer.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Editor\ZapparGyroCameraEditor.cs">
+      <Link>Editor\ZapparGyroCameraEditor.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Editor\ZapparFaceTrackingTargetEditor.cs">
+      <Link>Editor\ZapparFaceTrackingTargetEditor.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Editor\PackageImportSettings.cs">
+      <Link>Editor\PackageImportSettings.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Editor\BuildPostProcess.cs">
+      <Link>Editor\BuildPostProcess.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Editor\ZapparMultiFaceTrackingTargetEditor.cs">
+      <Link>Editor\ZapparMultiFaceTrackingTargetEditor.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Editor\ZapparUtilities.cs">
+      <Link>Editor\ZapparUtilities.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Editor\CameraSourcesListPopupDrawer.cs">
+      <Link>Editor\CameraSourcesListPopupDrawer.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Editor\TargetFileListPopupDrawer.cs">
+      <Link>Editor\TargetFileListPopupDrawer.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Editor\ZapparFaceMeshTargetEditor.cs">
+      <Link>Editor\ZapparFaceMeshTargetEditor.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Editor\ZapparInstantTrackingTargetEditor.cs">
+      <Link>Editor\ZapparInstantTrackingTargetEditor.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Editor\ZapparImageTrackingTargetEditor.cs">
+      <Link>Editor\ZapparImageTrackingTargetEditor.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Editor\ZapparFaceLandmarkEditor.cs">
+      <Link>Editor\ZapparFaceLandmarkEditor.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Editor\ZAssistant.cs">
+      <Link>Editor\ZAssistant.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Editor\ZapparMenu.cs">
+      <Link>Editor\ZapparMenu.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="universal-ar-unity-main\Editor\Zappar.UAR.Editor.asmdef" />
+    <None Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Editor\Zappar.UAR.Editor.asmdef">
+      <Link>Editor\Zappar.UAR.Editor.asmdef</Link>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -314,9 +348,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.36f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -325,6 +356,9 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -695,7 +729,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Zappar.UAR.csproj">
-      <Project>{D3DFE5FA-ADD0-0B00-0F3D-497BFDBE98C1}</Project>
+      <Project>{1597ED8C-0992-47B7-2524-CC25B2B8B7F0}</Project>
       <Name>Zappar.UAR</Name>
     </ProjectReference>
   </ItemGroup>

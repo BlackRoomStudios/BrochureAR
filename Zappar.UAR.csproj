@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D3DFE5FA-ADD0-0B00-0F3D-497BFDBE98C1}</ProjectGuid>
+    <ProjectGuid>{1597ED8C-0992-47B7-2524-CC25B2B8B7F0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Zappar.UAR</AssemblyName>
@@ -56,39 +56,101 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="universal-ar-unity-main\Runtime\ZapparImageTrackingTarget.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\ZapparFaceLandmark.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\Utilities\ZapparUARSettings.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\ZPermissions.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\Interfaces\ICameraListener.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\ZapparFaceDepthMask.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\ZapparCameraBackground.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\ZapparFaceTrackingAnchor.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\Utilities\LogManager.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\Utilities\CameraSourcesListPopupAttribute.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\Utilities\TargetFileListPopupAttribute.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\ZapparMultiFaceTrackingTarget.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\ZapparGyroCamera.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\Z.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\ZapparReflectionProbe.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\ZapparFaceMeshTarget.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\ZapparGyroCameraBackground.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\ZapparCamera.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\ZapparBaseCamera.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\Utilities\SingletonMono.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\ZapparInstantTrackingTarget.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\ZapparFaceTrackingTarget.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\ZapparBaseCameraBackground.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\Utilities\Singleton.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\ZapparFaceMesh.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\ZapparFullHeadModel.cs" />
-    <Compile Include="universal-ar-unity-main\Runtime\ZapparTrackingTarget.cs" />
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\ZapparImageTrackingTarget.cs">
+      <Link>Runtime\ZapparImageTrackingTarget.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\ZapparTrackingTarget.cs">
+      <Link>Runtime\ZapparTrackingTarget.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\ZapparCamera.cs">
+      <Link>Runtime\ZapparCamera.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\ZapparFaceLandmark.cs">
+      <Link>Runtime\ZapparFaceLandmark.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\ZapparReflectionProbe.cs">
+      <Link>Runtime\ZapparReflectionProbe.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\ZapparFaceTrackingTarget.cs">
+      <Link>Runtime\ZapparFaceTrackingTarget.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\ZapparFaceDepthMask.cs">
+      <Link>Runtime\ZapparFaceDepthMask.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\ZapparFaceMesh.cs">
+      <Link>Runtime\ZapparFaceMesh.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\ZapparFullHeadModel.cs">
+      <Link>Runtime\ZapparFullHeadModel.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\ZapparCameraBackground.cs">
+      <Link>Runtime\ZapparCameraBackground.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\ZapparBaseCamera.cs">
+      <Link>Runtime\ZapparBaseCamera.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\Utilities\ZapparUARSettings.cs">
+      <Link>Runtime\Utilities\ZapparUARSettings.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\ZapparFaceMeshTarget.cs">
+      <Link>Runtime\ZapparFaceMeshTarget.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\ZapparBaseCameraBackground.cs">
+      <Link>Runtime\ZapparBaseCameraBackground.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\Utilities\CameraSourcesListPopupAttribute.cs">
+      <Link>Runtime\Utilities\CameraSourcesListPopupAttribute.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\Utilities\SingletonMono.cs">
+      <Link>Runtime\Utilities\SingletonMono.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\Utilities\TargetFileListPopupAttribute.cs">
+      <Link>Runtime\Utilities\TargetFileListPopupAttribute.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\ZapparInstantTrackingTarget.cs">
+      <Link>Runtime\ZapparInstantTrackingTarget.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\ZapparMultiFaceTrackingTarget.cs">
+      <Link>Runtime\ZapparMultiFaceTrackingTarget.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\ZapparFaceTrackingAnchor.cs">
+      <Link>Runtime\ZapparFaceTrackingAnchor.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\ZapparGyroCamera.cs">
+      <Link>Runtime\ZapparGyroCamera.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\ZPermissions.cs">
+      <Link>Runtime\ZPermissions.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\ZapparGyroCameraBackground.cs">
+      <Link>Runtime\ZapparGyroCameraBackground.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\Z.cs">
+      <Link>Runtime\Z.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\Utilities\Singleton.cs">
+      <Link>Runtime\Utilities\Singleton.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\Interfaces\ICameraListener.cs">
+      <Link>Runtime\Interfaces\ICameraListener.cs</Link>
+    </Compile>
+    <Compile Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\Utilities\LogManager.cs">
+      <Link>Runtime\Utilities\LogManager.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="universal-ar-unity-main\Plugins\Zappar.UAR.asmref" />
-    <None Include="universal-ar-unity-main\Runtime\Zappar.UAR.asmdef" />
-    <None Include="universal-ar-unity-main\Plugins\Windows\zcv.dll" />
-    <None Include="universal-ar-unity-main\Plugins\Windows\ImageTraining.dll" />
+    <None Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Plugins\Zappar.UAR.asmref">
+      <Link>Plugins\Zappar.UAR.asmref</Link>
+    </None>
+    <None Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Runtime\Zappar.UAR.asmdef">
+      <Link>Runtime\Zappar.UAR.asmdef</Link>
+    </None>
+    <None Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Plugins\Windows\zcv.dll">
+      <Link>Plugins\Windows\zcv.dll</Link>
+    </None>
+    <None Include="E:\Unity Projects\WebARTest\universal-ar-unity-main\Plugins\Windows\ImageTraining.dll">
+      <Link>Plugins\Windows\ImageTraining.dll</Link>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -316,9 +378,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.36f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -327,6 +386,9 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.36f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

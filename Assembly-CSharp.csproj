@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B1EDD4D7-DC03-4B9F-CFE3-66060132B84C}</ProjectGuid>
+    <ProjectGuid>{0AABC932-2984-CDB4-A264-3E5B5AAE3807}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -711,11 +711,11 @@
     <Reference Include="Unity.XR.ARSubsystems">
       <HintPath>Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.XR.ARFoundation.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARFoundation">
       <HintPath>Library\ScriptAssemblies\Unity.XR.ARFoundation.dll</HintPath>
@@ -725,14 +725,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Zappar.UAR.Editor.csproj">
-      <Project>{E8E30E52-E767-764F-9C79-DA7926DE4782}</Project>
-      <Name>Zappar.UAR.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Zappar.UAR.csproj">
-      <Project>{D3DFE5FA-ADD0-0B00-0F3D-497BFDBE98C1}</Project>
-      <Name>Zappar.UAR</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
